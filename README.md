@@ -18,6 +18,15 @@ No training is required — only the pretrained `best.pt` file is needed.
 
 ---
 
+## 📦 Dataset
+
+Dataset used to train the model:
+
+🔗 Roboflow Dataset:
+[https://universe.roboflow.com/mathias-p/weed-detection-535r5-wk5bw](https://universe.roboflow.com/mathias-p/weed-detection-535r5-wk5bw)
+
+---
+
 ## 🧰 Tech Stack
 
 * Python 🐍
