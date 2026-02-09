@@ -1,7 +1,12 @@
 from ultralytics import YOLO
 
-# Load pretrained YOLOv8s-seg pothole model
 model = YOLO("best.pt")
 
-# Run webcam instance segmentation
-model.predict(source=0, show=True)
+model.predict(
+    source="0",  # or full path if you prefer
+    show=True,
+    save=True            # <— this makes YOLO save the processed video
+
+)
+
+
