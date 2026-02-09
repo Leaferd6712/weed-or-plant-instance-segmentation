@@ -6,6 +6,8 @@ This repository demonstrates a **real-time weed / plant detection system** using
 The model detects weeds (or plants) from a **live webcam feed**, drawing **segmentation masks and bounding boxes**.
 No training is required — only the pretrained `best.pt` file is needed.
 
+![Demo](old.gif)
+
 ---
 
 ## 🚀 Features
